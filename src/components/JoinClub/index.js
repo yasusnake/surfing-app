@@ -1,5 +1,7 @@
-import React, { Component } from 'react';
-class JoinClub extends Component {
+import React from 'react';
 
-}
+const JoinClub = () => (
+
+)
+
 export default JoinClub;
