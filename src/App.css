@@ -12,6 +12,9 @@
   margin-bottom: 46px;
   padding: 37px 0 0;
 }
+#header .nav {
+  flex-grow: 1;
+}
 #header .nav a {
   color: #3b3c3e;
 }
