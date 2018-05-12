@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Shop extends Component {
-  
-}
+const Shop = () => (
+  <p>Shop</p>
+)
 
 export default Shop;
