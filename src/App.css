@@ -1,6 +1,23 @@
 .container {
   max-width: 1224px;
 }
+h2.title {
+  color: #535353;
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+}
+.paragraph {
+  color: #a2a2a2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.url {
+  border-bottom: #5da8ef 2px solid;
+  color: #333;
+  font-size: 12px;
+  text-transform: uppercase;
+}
 
 /*========================================
 1. HEADER
@@ -32,14 +49,14 @@
 }
 
 /*========================================
-1. MAIN SLIDER
+2. MAIN SLIDER
 ========================================*/
 
 #main-slider {
   margin: 0 auto;
-  max-width: 1284px;
+  max-width: 1310px;
 }
-.carousel-item {
+.slick-list {
   padding: 50px 0;
 }
 .container-slider {
@@ -72,6 +89,45 @@
 }
 
 /*========================================
+3. Surf Experience
+========================================*/
+
+#SurfExperience {
+  margin: 80px auto 0;
+  padding-bottom: 175px;
+  position: relative;
+}
+#SurfExperience h2 {
+  margin: 0 auto;
+  text-align: center;
+  width: 612px;
+}
+#SurfExperience small {
+  display: block;
+  margin: 30px auto 50px;
+  text-align: center;
+}
+#SurfExperience hr {
+  background: #5da8ef;
+  height: 100px;
+  margin-bottom: 50px;
+  width: 2px;
+}
+#SurfExperience img:nth-last-child(1) {
+  cursor: pointer;
+  right: 0;
+  position: absolute;
+  top: 365px;
+}
+#SurfExperience p {
+  margin: 54px 0 29px 118px;
+  width: 335px;
+}
+#SurfExperience a {
+  margin: 0 0 0 118px;
+}
+
+/*========================================
 8. FOOTER
 ========================================*/
 
@@ -91,11 +147,8 @@
 
 @media screen and (max-width: 768px) {
 
-  #main-slider {
-
-  }
-  .carousel-inner {
-    padding-bottom: 0;
+  .slick-list {
+    padding: 0;
   }
   .container-slider {
     padding: 0;
@@ -125,6 +178,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     line-height: 1.6;
+    width: 100%;
   }
 
 }
@@ -156,6 +210,7 @@
   .fa-bars {
     display: block;
     flex-grow: 0;
+    margin-left: 15px;
   }
   #header .nav a:hover {
     color: #86a5e3;
@@ -168,7 +223,33 @@
     margin: 0 auto;
   }
   .fa-shopping-cart {
-    margin-right: 5px;
+    margin-right: 15px;
+  }
+
+  /*========================================
+  3. Surf Experience
+  ========================================*/
+
+  #SurfExperience {
+    margin: 40px auto 0;
+    padding-bottom: 0px;
+  }
+  #SurfExperience h2 {
+    width: 100%;
+  }
+  #SurfExperience img {
+    width: 100%;
+  }
+  #SurfExperience img:nth-last-child(1) {
+    position: inherit;
+    top: 20px;
+  }
+  #SurfExperience p {
+    margin: 20px auto;
+    width: 100%;
+  }
+  #SurfExperience a {
+    margin: 0;
   }
 
 }

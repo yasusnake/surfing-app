@@ -20,7 +20,7 @@ var settings = {
 };
 
 const Slider = observer(({sliderContent} : Props) => (
-  <div id="main-slider" className="carousel slide">
+  <div id="main-slider" className="container">
     <Carousel {...settings}>
       {
         _.map(sliderContent, (slide) => {

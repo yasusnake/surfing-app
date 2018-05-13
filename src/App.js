@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
 import './reset.css';
+import './App.css';
 import { inject, observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 
