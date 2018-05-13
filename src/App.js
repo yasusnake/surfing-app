@@ -21,7 +21,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Slider />
+        <Slider {...{
+          sliderContent : this.props.ShopStore.sliderContent,
+        }}/>
         <SurfExperience />
         <Shop />
         <SurfLessons />
@@ -32,5 +34,9 @@ class App extends Component {
     );
   }
 }
+
+App.propTypes = {
+  sliderContent : PropTypes.object,
+};
 
 export default App;

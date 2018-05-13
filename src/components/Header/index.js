@@ -3,15 +3,15 @@ import logo from '../../assets/logo.png';
 
 const Header = () => (
   <header id="header" className="container">
-    <i class="fas fa-bars fa-2x"></i>
+    <i className="fas fa-bars fa-2x"></i>
     <a id="logo"><img src={logo} className="surfing-logo" alt="logo" /></a>
     <nav className="nav">
-      <a className="nav-link active" href="#">Stories</a>
-      <a className="nav-link" href="#">Events</a>
-      <a className="nav-link" href="#">Places</a>
-      <a className="nav-link" href="#">Boards</a>
+      <a className="nav-link active" href="">Stories</a>
+      <a className="nav-link" href="">Events</a>
+      <a className="nav-link" href="">Places</a>
+      <a className="nav-link" href="">Boards</a>
     </nav>
-    <i class="fas fa-shopping-cart fa-2x"></i>
+    <i className="fas fa-shopping-cart fa-2x"></i>
   </header>
 )
 
