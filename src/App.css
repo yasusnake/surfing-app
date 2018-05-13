@@ -128,6 +128,100 @@ h2.title {
 }
 
 /*========================================
+4. Shop
+========================================*/
+
+#shop .owlSmallTitle {
+  color: #5da8ef;
+  display: block;
+  text-align: center;
+}
+#shop h2.title {
+  display: block;
+  text-align: center;
+  margin: 5px 0 50px;
+}
+#shop article {
+  position: relative;
+}
+#shop article img {
+  max-width: 251px;
+}
+.owlText {
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+.owlText small {
+  color: #939393;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+}
+.owlText h2 {
+  color: #333;
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  margin: 3px 0 30px;
+}
+.owlText p {
+  color: #ce60a8;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 55px;
+}
+.owlText a {
+  color: #333;
+  font-size: 14px;
+  margin-left: 55px;
+}
+
+/*========================================
+5. SurfLessons
+========================================*/
+
+#SurfLessons {
+  margin-top: 170px;
+}
+.wrapTextLesson {
+  clear: both;
+  width: 340px;
+}
+.wrapTextLesson small {
+  bottom: -45px;
+  color: #f9f9f9;
+  font-size: 130px;
+  font-weight: bolder;
+  position: relative;
+}
+.wrapTextLesson h2 {
+  font-size: 42px;
+  font-weight: bolder;
+  position: relative;
+  z-index: 2;
+}
+.wrapTextLesson hr {
+  background: #5da8ef;
+  height: 2px;
+  width: 23px;
+}
+.wrapTextLesson p {
+  margin-bottom: 30px;
+}
+#SurfLessons article:nth-child(even) .wrapTextLesson {
+  float: right;
+}
+#SurfLessons article:nth-child(odd) .wrapTextLesson {
+  float: left;
+  margin-right: 59px;
+}
+#SurfLessons article:nth-child(even) {
+  margin: 120px auto 0;
+  width: 905px;
+}
+
+/*========================================
 8. FOOTER
 ========================================*/
 
@@ -226,9 +320,7 @@ h2.title {
     margin-right: 15px;
   }
 
-  /*========================================
-  3. Surf Experience
-  ========================================*/
+  /* 3. Surf Experience */
 
   #SurfExperience {
     margin: 40px auto 0;
@@ -250,6 +342,59 @@ h2.title {
   }
   #SurfExperience a {
     margin: 0;
+  }
+
+  /*========================================
+  4. Shop
+  ========================================*/
+
+  #shop .owlSmallTitle {
+    margin-top: 50px;
+  }
+  #shop article {
+    position: relative;
+  }
+  #shop article img {
+    max-width: 100%;
+  }
+  .owlText {
+    margin-top: 20px;
+    position: inherit;
+    text-align: center;
+    top: 0;
+  }
+  .owlText p {
+    margin-left: 0;
+  }
+  .owlText a {
+    margin-left: 0;
+  }
+
+  /* 5. SurfLessons */
+
+  #SurfLessons {
+    margin-top: 0px;
+  }
+  .wrapTextLesson {
+    width: 100%;
+  }
+  .wrapTextLesson p {
+    margin-bottom: 30px;
+  }
+  #SurfLessons img {
+    margin-top: 30px;
+    width: 100%;
+  }
+  #SurfLessons article:nth-child(even) .wrapTextLesson {
+    float: none;
+  }
+  #SurfLessons article:nth-child(odd) .wrapTextLesson {
+    float: none;
+    margin-right: 0px;
+  }
+  #SurfLessons article:nth-child(even) {
+    margin: 20px auto 0;
+    width: 100%;
   }
 
 }
