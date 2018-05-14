@@ -251,10 +251,41 @@ h2.title {
 }
 
 /*========================================
+6. Address
+========================================*/
+
+#Address {
+  margin-top: 140px;
+  overflow: hidden;
+}
+#Address img {
+  float: left;
+}
+.wrapAddress {
+  float: right;
+  margin-top: 103px;
+  width: 385px;
+}
+.wrapAddress small {
+  color: #d6d6d6;
+}
+.wrapAddress h2 {
+  display: block;
+  font-size: 32px;
+  margin: 30px 0 40px 40px;
+  line-height: 1.6;
+  width: 300px;
+}
+.wrapAddress a {
+  border-bottom: 1px solid;
+}
+
+/*========================================
 8. FOOTER
 ========================================*/
 
 #footer {
+  clear: both;
   margin-top: 98px;
   text-align: center;
 }
@@ -373,9 +404,7 @@ h2.title {
     margin: 0;
   }
 
-  /*========================================
-  4. Shop
-  ========================================*/
+  /* 4. Shop */
 
   #shop .owlSmallTitle {
     margin-top: 50px;
@@ -424,6 +453,31 @@ h2.title {
   #SurfLessons article:nth-child(even) {
     margin: 20px auto 0;
     width: 100%;
+  }
+
+  /*========================================
+  6. Address
+  ========================================*/
+
+  #Address {
+    margin-top: 40px;
+  }
+  #Address img {
+    float: none;
+    width: 100%;
+  }
+  .wrapAddress {
+    float: none;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  .wrapAddress h2 {
+    margin: 30px 0 40px 0px;
+    width: 100%;
+  }
+  .wrapAddress a {
+    border-bottom: 1px solid;
   }
 
 }
