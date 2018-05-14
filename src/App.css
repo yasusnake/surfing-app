@@ -222,6 +222,35 @@ h2.title {
 }
 
 /*========================================
+6. JoinClub
+========================================*/
+
+#JoinClub {
+  margin-top: 90px;
+  max-width: 590px;
+  text-align: center;
+}
+#JoinClub form {
+  display: flex;
+}
+#JoinClub input,
+#JoinClub button {
+  border-radius: 0;
+}
+.form-control {
+  flex-grow: 1;
+}
+#JoinClub hr {
+  background: #5da8ef;
+  height: 100px;
+  margin-bottom: 50px;
+  width: 2px;
+}
+#JoinClub p {
+  margin: 20px auto 30px;
+}
+
+/*========================================
 8. FOOTER
 ========================================*/
 
