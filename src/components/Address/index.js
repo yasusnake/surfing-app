@@ -1,7 +1,10 @@
 import React from 'react';
+import img from '../../assets/imperial-beach.jpg';
 
 const Address = () => (
-  <p>Address</p>
+  <section>
+    
+  </section>
 )
 
 export default Address;
